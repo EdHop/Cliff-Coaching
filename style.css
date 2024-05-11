@@ -1,0 +1,250 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+#about-me{
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.body-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-container{
+    align-self:flex-end;
+    width: 100%;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    gap: 20px;
+    padding: 0px;
+}
+
+.nav-left{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-center{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-right{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-button{
+    height: 60px;
+    min-width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d6d6d6;
+    transition-duration: 0.5s;
+    font-size: 12pt;
+}
+
+.nav-button:hover{
+    background-color: #bdbdbd;
+}
+
+.button-text{
+    text-decoration: none;
+}
+
+.heading-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
+    width: 100%;
+}
+
+.title-card{
+    background-color: #609966;
+    grid-column: span 3;
+    height:250px;
+    width: 100%;
+    padding: 0px;
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-image: url(./assets/images/landscape-background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+.main-container-index{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 50px 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-container-coaching{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-container-about{
+    display: grid;
+    width: 60vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-container-services{
+    display: grid;
+    width: 60vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-container-booking{
+    display: grid;
+    width: 60vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.heading-card{
+    grid-column: span 2;
+    height: auto;
+}
+
+.image-card{
+    align-self: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-fit{
+    height: 500px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.info-card{
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text{
+    font-size: 14pt;
+    line-height: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading-text{
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.jost-bold {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.jost-white {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+  }
+
+  
+.lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+
+.footer{
+    margin-top: auto;
+    background-color: #40513B;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-list{
+    list-style-type: none;
+    line-height: 30px;
+}
